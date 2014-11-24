@@ -1,7 +1,7 @@
 <h2>Boards Index</h2>
 
 <ul>
-  <% boards.each(function(board){; %>
-    <li><%= board %></li>
-  <% }); %>
+  <% boards.each(function(board){ %>
+    <li><%= board.get("title") %></li>
+  <% }) %>
 </ul>
